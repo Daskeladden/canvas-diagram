@@ -1,0 +1,23 @@
+# Compiled files
+*.elc
+*.eln
+
+# Generated autoloads
+*-autoloads.el
+
+# Emacs backup and auto-save files
+*~
+\#*\#
+.\#*
+
+# Agent scratch
+.claude/
+
+# Built module
+*.so
+
+# Headers unpacked by "make deps-local" and the link stubs beside them:
+# system packages, not part of this repo.
+include/
+lib/
+.debs/
