@@ -21,7 +21,6 @@
    cairo's ARGB32 is premultiplied, native-endian -- the same layout
    Emacs uses for the canvas, since it hands the buffer to cairo too.  */
 
-#include <emacs-module.h>
 #if EMACS_MAJOR_VERSION < 32
 #error "This emacs-module.h is of an Emacs before 32, which has no canvas. \
 Build with the header of Emacs 32: make EMACS=/path/to/emacs, or \
